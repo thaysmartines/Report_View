@@ -186,7 +186,43 @@ h1 {
 .periodo li:last-child .link {
   border-bottom: 0;
 }
+.filter-relatorio{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.btn-filter{
+  display: flex;
+  margin-top: 20px;
+  
+}
 
+.limpar-filtros{
+  width: 127px;
+  height: 41px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: #FFF;
+  color: #1270B0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; 
+}
+.filtros{
+  width: 127px;
+  height: 41px;
+  color: #FFF;
+  background-color: #064A8C;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+
+
+}
 .periodo li i {
   position: absolute;
   top: 16px;
